@@ -70,3 +70,18 @@ hr {
     margin-bottom: 5%;
     color: #1B1B50;
 }
+
+img {
+    margin-top: 8%;
+}
+
+.group {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179%;
+    /* or 29px */
+    margin-top: 10%;
+    color: #1B1B50;
+}

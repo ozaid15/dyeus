@@ -1,6 +1,8 @@
 import React from 'react'
 import './home.css'
-// import Group from '../../assets/Group.svg'
+import Group from '../../assets/Group.svg'
+import Vector from '../../assets/Vector.svg'
+import Mask from '../../assets/Mask.svg'
 
 function Home() {
   return (
@@ -25,7 +27,22 @@ function Home() {
           <br />
           That’s why we’ve created an integrated ecosystem of:
         </div>
-        
+        <img src={Group} />
+        <div className='group'>
+          Consciously formulated products that deliver feel-good results fast
+        </div>
+        <img src={Vector} />
+        <div className='group'>
+          In-app mood and period tracking options that help you cultivate a deeper connection with your mind and body
+        </div>
+        <img src={Mask} />
+        <div className='group'>
+          In-app consultation portals that connect you with compassionate wellness experts
+        </div>
+        <div className='group'>
+          Consider us your nerdy ally who spends their time perfecting products 
+          that work because they want you to feel your best everyday.
+        </div>
     </div>
   )
 }
