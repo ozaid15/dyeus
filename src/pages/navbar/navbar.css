@@ -1,0 +1,27 @@
+.outer {
+    display: flex;
+    height: 103px;
+    background: rgba(255, 255, 255, 0.47);
+    box-shadow: 0px 4px 14px rgba(24, 160, 251, 0.12);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 0px 0px 14px 14px;
+}
+.left {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.right {
+    margin-right: 5%;
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart {
+ margin-right: 8%;
+}

@@ -1,0 +1,72 @@
+.about {
+    padding: 10%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Reptile';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 30px;
+    color: #1B1B50;
+}
+
+h2 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #1B1B50;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 179%;
+}
+
+hr {
+    width: 297px;
+    height: 1px;
+    background-color: #000000;
+}
+
+.heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    margin-bottom: 8%;
+
+    color: #1B1B50;
+}
+
+.content {
+    font-family: 'Reptile';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 134.8%;
+    /* or 44px */
+    margin-bottom: 8%;
+
+    color: #1B1B50;
+}
+
+.mission {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 179%;
+    /* or 29px */
+    margin-bottom: 5%;
+    color: #1B1B50;
+}
